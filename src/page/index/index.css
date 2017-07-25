@@ -1,0 +1,188 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-06-30 14:47:14 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-07-01 09:17:27
+ */
+
+.keywords-list {
+    float: left;
+    width: 240px;
+    height: 350px;
+    padding: 10px 0;
+    margin-right: 10px;
+    background: #666;
+    color: #fff;
+}
+
+.keywords-list .keywords-item {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.keywords-list .keywords-item:hover {
+    background: #999;
+}
+
+.keywords-list .link {
+    margin: 4px;
+    color: #fff;
+}
+
+.keywords-list .link:hover {
+    color: #c60023;
+}
+
+
+/*banner-con*/
+
+.banner-con {
+    position: relative;
+    width: 830px;
+    float: left;
+    height: 370px;
+    background: #eee;
+}
+
+.banner-con .banner-img {
+    width: 100%;
+    height: 370px;
+}
+
+
+/*这是banner的控制点*/
+
+.banner-con .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+.banner-con .dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    text-indent: -999em;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+
+/* 这是banne前后张控制按钮*/
+
+.banner-con .banner-arrow {
+    position: absolute;
+    top: 160px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background: #ccc;
+    background: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.banner-con .banner-arrow:hover {
+    background: #aaa;
+    background: rgba(0, 0, 0, .5);
+}
+
+.banner-con .banner-arrow.prev {
+    left: 0;
+}
+
+.banner-con .banner-arrow.next {
+    right: 0;
+}
+
+.banner .dots .dot.active {
+    background: #fff;
+    opacity: 1;
+}
+
+.banner-con .loading {
+    margin-top: 150px;
+}
+
+
+/*floor*/
+
+.floor-wrap .floor-list {
+    overflow: hidden;
+    margin-right: -20px;
+}
+
+.floor-wrap .floor-title {
+    height: 50px;
+    line-height: 50px;
+    color: #d58717;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #d58717;
+}
+
+
+/*修改每个楼层的标题颜色*/
+
+.floor-wrap:nth-child(2) .floor-title {
+    color: #3b838c;
+    border-bottom: 1px solid #3b838c;
+}
+
+.floor-wrap:nth-child(3) .floor-title {
+    color: #a93931;
+    border-bottom: 1px solid #a93931;
+}
+
+.floor-wrap:nth-child(4) .floor-title {
+    color: #488bad;
+    border-bottom: 1px solid #488bad;
+}
+
+.floor-wrap:nth-child(5) .floor-title {
+    color: #642663;
+    border-bottom: 1px solid #642663;
+}
+
+.floor-wrap .floor-item {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 15px 20px 15px 0;
+    cursor: pointer;
+    background: #fff;
+}
+
+.floor-wrap .floor-item:hover {
+    box-shadow: 1px 1px 7px #ddd;
+}
+
+.floor-wrap .floor-item .floor-text {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 15px;
+    color: #555;
+}
+
+.floor-wrap .floor-item .floor-img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}

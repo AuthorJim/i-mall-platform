@@ -1,0 +1,32 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-07-07 14:55:04 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-07-07 14:58:55
+ */
+.page-wrap{
+    padding: 10px 0 25px;
+    background: #fff;
+}
+.page-wrap .payment-tips{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+}
+.page-wrap .payment-tips.enhance{
+    color: #c60023;
+}
+.page-wrap .img-con{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.img-con .qr-code{
+    width: 100%;
+    height: 100%;
+}

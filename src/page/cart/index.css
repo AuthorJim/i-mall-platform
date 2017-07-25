@@ -1,0 +1,140 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-07-01 18:14:32 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-07-02 17:23:06
+ */
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+
+/*header*/
+
+.cart-header {
+    background: #eee;
+}
+
+.cart-table .cart-cell {
+    height: 40px;
+    line-height: 40px;
+}
+
+.cart-table .cell-check {
+    width: 7%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.cart-table .cell-info {
+    width: 35%;
+    text-align: left;
+}
+
+.cart-header .cell-info {
+    width: 45%;
+    padding-left: 106px;
+}
+
+.cart-table .cell-img {
+    width: 10%;
+    text-align: left;
+}
+
+.cart-table .cell-img .p-img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.cart-table .cell-price {
+    width: 10%;
+    text-align: center;
+}
+
+.cart-table .cell-count {
+    width: 15%;
+    text-align: center;
+}
+
+.cart-table .cell-count .count-input {
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    color: #333;
+}
+
+.cart-table .cell-count .count-btn {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background: #fff;
+    vertical-align: middle;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.cart-table .cell-total {
+    width: 13%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cart-table .cell-opera {
+    width: 10%;
+    text-align: center;
+}
+
+
+/*footer*/
+
+.cart-footer {
+    position: relative;
+    line-height: 50px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.cart-footer .select-con {
+    float: left;
+}
+
+.cart-footer .delete-con {
+    float: left;
+    margin-left: 20px;
+}
+
+.cart-footer .submit-con {
+    float: right;
+}
+
+.cart-footer .submit-con .submit-total {
+    margin-right: 30px;
+    font-size: 18px;
+    color: #c60023;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.cart-footer .submit-con .btn-submit {
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+

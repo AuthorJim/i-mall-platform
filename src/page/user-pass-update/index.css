@@ -1,0 +1,23 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-06-30 13:32:01 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-06-30 13:42:43
+ */
+.form-line {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.form-line .label {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+.form-line .input{
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    padding-left: 5px;
+}

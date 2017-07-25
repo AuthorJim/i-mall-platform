@@ -1,0 +1,100 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-07-05 15:10:50 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-07-05 18:25:31
+ */
+
+ /*商品信息*/
+.order-list-info {
+     padding: 0 10px;
+ }
+.order-list-info .text-line {
+    margin-bottom: 10px;
+}
+.order-list-info .text-line .text{
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*商品清单*/
+
+.order-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #fafafa;
+    overflow: hidden;
+}
+
+.order-list-table .cell {
+    padding: 10px 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.order-list-table.header {
+    background: #eee;
+}
+
+.order-list-talist-info {
+    padding: 10px;
+    background: #eee;
+    color: #999;
+}
+
+.order-list-table .order-info .order-text {
+    margin-right: 25px;
+}
+
+.order-list-table .order-info .order-num {
+    font-weight: 700;
+}
+
+.order-list-table .order-info .order-total {
+    font-weight: 700;
+    color: #c60023;
+}
+
+.order-list-table .order-info .order-detail {
+    float: right;
+    font-weight: 700;
+}
+
+.order-list-table .cell-img {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-list-table .cell-img .p-img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+
+.order-list-table .cell-info {
+    width: 45%;
+    text-indent: 2em;
+    text-align: left;
+}
+
+.order-list-table .cell-price {
+    width: 15%;
+    text-align: left;
+}
+
+.order-list-table .cell-count {
+    width: 15%;
+    text-align: center;
+}
+
+.order-list-table .cell-total {
+    width: 15%;
+    text-align: center;
+}
+
+.btn.btn-mini{
+    margin-right: 10px;
+}

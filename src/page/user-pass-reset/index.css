@@ -1,0 +1,114 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-06-29 22:48:50 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-06-29 23:46:02
+ */
+
+.page-wrap {
+    padding: 40px 0;
+    background: #e72955;
+}
+
+.user-con {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.user-con .user-title {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+}
+.user-con .step-con{
+    display: none;
+}
+
+/*错误提示*/
+
+.user-con .error-item {
+    position: relative;
+    padding: 4px 0 4px 40px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    color: red;
+    background: #fde9e9;
+}
+
+
+/*错误图标*/
+
+.user-con .error-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+.user-con .user-box {
+    padding: 20px;
+}
+
+.user-con .user-item {
+    position: relative;
+    margin: 15px 0 20px;
+}
+
+.user-con .user-item .item-title {
+    position: absolute;
+    left: 0;
+    top: -28px;
+    font-size: 14px;
+}
+
+.user-con .user-item .user-label {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    width: 40px;
+    line-height: 36px;
+    font-size: 18px;
+    border-right: 1px solid #bdbdbd;
+    background: #f3f3f3;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+.user-con .user-item .user-content {
+    width: 308px;
+    height: 18px;
+    line-height: 18px;
+    padding: 10px 0 10px 50px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+}
+
+.user-con .btn-next {
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 20px;
+    background: #e4393c;
+    font-weight: normal;
+}
+
+
+/*跳转链接*/
+
+.user-con .link-item {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.user-con .link-item .link {
+    margin-left: 10px;
+    color: #999;
+}

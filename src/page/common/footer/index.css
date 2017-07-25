@@ -1,0 +1,22 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-06-28 21:11:05 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-06-28 21:16:12
+ */
+ .footer{
+     padding-bottom: 10px;
+ }
+ .footer .links{
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}
+.footer .links .link{
+    padding: 0 10px;;
+}
+.footer .copyright{
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}

@@ -1,0 +1,11 @@
+.nav-simple{
+    background: #fff;
+}
+.nav-simple .logo{
+    display: block;
+    left: 60px;
+    top: 35px;      
+    font-size: 36px;
+    font-weight: 700;
+    color: #c60023;
+}

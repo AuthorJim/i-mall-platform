@@ -1,0 +1,45 @@
+/*
+ * @Author: AuthorJim 
+ * @Date: 2017-06-28 20:19:43 
+ * @Last Modified by: AuthorJim
+ * @Last Modified time: 2017-06-30 10:46:41
+ */
+
+.logo{
+    position: absolute;
+    display: block;
+    left: 60px;
+    top: 35px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #c60023;
+}
+.search-con{
+    padding: 40px 0 30px 250px;
+    font-size: 0;
+}
+.search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    outline: none;
+}
+.search-con .search-btn{
+    width: 80px;
+    height: 44px;
+    margin-top: -10px;
+}
+
+/*这是面包屑导航*/
+.crumb{
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
+    background: #eee;
+    color: #888;
+}
